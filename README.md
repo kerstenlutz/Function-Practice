@@ -46,3 +46,4 @@ restore those file's initial state with ```git restore <fileName>``` command.
 - Submit the txt file with a repo link on the exercise page in devslopes course.
 # Function-Practice
 # Function-Practice
+# Function-Practice
