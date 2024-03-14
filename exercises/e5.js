@@ -12,7 +12,16 @@
  */
 
 // Your code goes here...
+function getDiffTwentySeven(num) {
+  if (num > 27) {
+    return (num - 27)*2;
+  } else {
+    return 27 - num;
+  }
+}
 
+console.log(getDiffTwentySeven(13));
+console.log(getDiffTwentySeven(37));
 
 
 
@@ -23,8 +32,17 @@
  * Example2: sumOfTwoIntegers(12, 12) => 72
  */
 
-// Your code goes here
+// Your code goes here   
+function sumOfTwoIntegers(num1, num2) {
+  if (num1 === num2) {
+    return (num1 + num2)*3;
+  } else {
+    return num1 + num2;
+  }
+}
 
+console.log(sumOfTwoIntegers(13, 14));
+console.log(sumOfTwoIntegers(12, 12));
 
 
 
@@ -38,7 +56,19 @@
  */
 
 // Your code goes here...
+function isOneOfThemOrTheirSumIsFourty(num1, num2) {
+  if (num1 ===40 || num2 === 40) {
+    return true;
+  } if (num1 + num2 ===40) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
+console.log(isOneOfThemOrTheirSumIsFourty(40, 13));
+console.log(isOneOfThemOrTheirSumIsFourty(22, 18));
+console.log(isOneOfThemOrTheirSumIsFourty(23, 16));
 
 
 
