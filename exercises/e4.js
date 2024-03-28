@@ -11,7 +11,7 @@
 
 const splitFirstAndLastNames = (str) => str.split(' ');
 
-console.log(splitFirstAndLastNames('John Smith'));
+splitFirstAndLastNames('John Smith');
 
 
 /** =========================
@@ -22,7 +22,7 @@ console.log(splitFirstAndLastNames('John Smith'));
 
 const personAge = (personObject) => personObject.age;
 
-console.log(personAge({ id: 1, name: 'Someone', age: 32}));
+personAge({ id: 1, name: 'Someone', age: 32});
 
  
 /** =========================
@@ -34,8 +34,8 @@ console.log(personAge({ id: 1, name: 'Someone', age: 32}));
 
 const isNameInArray = (arr, name) => arr.includes(name);
 
-console.log(isNameInArray(['Jon', 'Michael', 'Andrey'], 'Michael'));
-console.log(isNameInArray(['Jon', 'Michael', 'Andrey'], 'James'));
+isNameInArray(['Jon', 'Michael', 'Andrey'], 'Michael');
+isNameInArray(['Jon', 'Michael', 'Andrey'], 'James');
 
 
 /** =========================
@@ -47,16 +47,16 @@ console.log(isNameInArray(['Jon', 'Michael', 'Andrey'], 'James'));
 
 const logSecondsUpToMax = (max) => {
   let i = 0;
-  const timer = setInterval = () => {
-      if (i < max ) {
-          console.log(++i);
-      } else {
-          clearInterval(timer);
-      }
-  } 
+  const timer = setInterval(() => {
+    if (i < max) {
+      console.log(++i);
+    } else {
+      clearInterval(timer);
+    }
+  }, 1000);
 }
 
-console.log(logSecondsUpToMax(1000));
+logSecondsUpToMax(10);
 
 
 
