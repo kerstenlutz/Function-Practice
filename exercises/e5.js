@@ -20,8 +20,8 @@ function getDiffTwentySeven(num) {
   }
 }
 
-console.log(getDiffTwentySeven(13));
-console.log(getDiffTwentySeven(37));
+getDiffTwentySeven(13);
+getDiffTwentySeven(37);
 
 
 
@@ -41,8 +41,8 @@ function sumOfTwoIntegers(num1, num2) {
   }
 }
 
-console.log(sumOfTwoIntegers(13, 14));
-console.log(sumOfTwoIntegers(12, 12));
+sumOfTwoIntegers(13, 14);
+sumOfTwoIntegers(12, 12);
 
 
 
@@ -66,9 +66,9 @@ function isOneOfThemOrTheirSumIsFourty(num1, num2) {
   }
 }
 
-console.log(isOneOfThemOrTheirSumIsFourty(40, 13));
-console.log(isOneOfThemOrTheirSumIsFourty(22, 18));
-console.log(isOneOfThemOrTheirSumIsFourty(23, 16));
+isOneOfThemOrTheirSumIsFourty(40, 13);
+isOneOfThemOrTheirSumIsFourty(22, 18);
+isOneOfThemOrTheirSumIsFourty(23, 16);
 
 
 
