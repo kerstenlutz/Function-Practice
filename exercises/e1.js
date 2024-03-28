@@ -14,13 +14,11 @@
 */
 
 // Your code goes here
-function logMessage (arg1, arg2, arg3, arg4) {
-  const result = arg1 + arg2 + arg3 +arg4;
-  return result;
+function logMessage () {
+  console.log('Hello, World!')
 }
 
-const phrase = logMessage('Hello', ', ', 'World', '!' );
-console.log(phrase);
+logMessage ();
 
 
 
@@ -36,14 +34,11 @@ console.log(phrase);
 */
 
 // Your code goes here...
-function logMyMessage (arg1, arg2, arg3, arg4, arg5, arg6) {
-  const message = arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
-  return message;
+function logMyMessage (myMessage) {
+  console.log(myMessage);
 }
 
-const myMessage = logMyMessage('I ', 'think ', 'I am ', 'doing ', 'this ', 'right.');
-console.log(myMessage);
-
+logMyMessage('I logged my first message!');
 
 
 /**
@@ -57,14 +52,11 @@ console.log(myMessage);
 */
 
 // Your code goes here...
-function logMessageWithMyName (arg1) {
-  const message = 'My name is ' + arg1;
-  return message;
+function logMessageWithMyName (name) {
+  console.log('My name is ' + name + '!');
 }
 
-const namedMessage = logMessageWithMyName ('Kersten!');
-console.log (namedMessage);
-
+logMessageWithMyName('Kersten');
 
 
 /**
@@ -79,13 +71,13 @@ console.log (namedMessage);
 */
 
 // Your code goes here...
-function logMyInfo (arg1, arg2) {
-  const message = 'My name is ' + arg1 + '. I am ' + arg2 + ' years old!';
-  return message;
+function logMyInfo (name, age) {
+  console.log('My name is ' + name + '. I am ' + age + ' years old!');
 }
 
-const info = logMyInfo ('Kersten', 25);
-console.log(info);
+logMyInfo('Derek', 44);
+
+// Question, when I run the "npm run test-1", it says eight tests failed, yet logs the "stdout" correctly?
 
 
 
